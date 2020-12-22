@@ -22,7 +22,7 @@ I typically see the largest numbers of clashes in these categories of atoms. But
 **Example command:** Below is a simple example of how to run the code on a set of input proteins. Each flag is described below, along with a set of optional flags. The output of the code is also described below.
 
 ```
-python scripts/compute_distances.py --pdb_dir PDB_DIR file_with_thresholds results/natives/thresholds.csv --output_file_prefix OUTPUT_FILE_PREFIX
+python scripts/compute_distances.py --pdb_dir PDB_DIR --file_with_thresholds results/natives/thresholds.csv --output_file_prefix OUTPUT_FILE_PREFIX
 ```
 
 **Required flags:**
